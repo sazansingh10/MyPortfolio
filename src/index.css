@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif !important;
+  -webkit-tap-highlight-color: transparent !important;
+}
+.ant-drawer .ant-drawer-close {
+  display: none !important;
+}
+.image_background {
+}
